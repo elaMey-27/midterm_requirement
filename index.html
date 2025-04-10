@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elamey's Watch Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style> 
+            @media (max-width: 768px){
+                .featured-watches .col-sm-6{
+                    margin-right: 15px;
+                }
+                .featured-watches .col-sm-6:last-child{
+                    margin-right: 0;
+                }
+            }
+            .featured-watches .col-md-4{
+                 margin-right: 10px;
+            }
+            .featured-watches .col-md-4:last-child{
+                 margin-right: 0;
+            }
+            .featured-watches .container{
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .watch-card{
+                width:100%;
+                max-width:300%;
+            }
+            .watch-card:hover{
+                transform:scale(1.03);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            }
+            @media(max-width: 768px){
+                .col-lg-3{
+                    col-md-6;
+                }
+            }
+        </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Elamey's Watch Store</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>   
+          </div>
+        </div>
+    </nav>
+
+    <!-- Introduction -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title animate__animated animate__fadeInDown">Timeless Elegance, Modern Style</h1>
+            <p class="hero-subtitle animate__animated animate__fadeInUp">"A Watch Is A Small Detail That Can Make A Big Difference In Your Style."</p>
+            <a href="products.html" class="btn btn-primary animate__animated animate__fadeInUp">View Collection</a>
+        </div>
+    </header>
+
+        <!-- Featured Watches Section -->
+        <section class="featured-watches py-5">
+            <div class="container">
+                <h2 class="text-center mb-4 animate__animated animate__fadeInUp">Featured Timepieces</h2>
+                <div class="row justify-content-center"> 
+                    <div class="col-md-4 mb-4">
+                        <a href="products.html" class="text-decoration-none text-dark">
+                            <div class="watch-card animate__animated animate__fadeInUp">
+                                <img src="https://s3.ap-southeast-1.amazonaws.com/galadriel-picture-storage.luxein.com/16467935450961646793546234"
+                                    class="card-img-top" alt="Luxury Watch">
+                                <div class="watch-card-body">
+                                    <h5 class="watch-card-title">Luxury Watch</h5>
+                                    <p class="watch-card-text">Php3,000</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+    
+                    <div class="col-md-4 mb-4">
+                        <a href="products.html" class="text-decoration-none text-dark">
+                            <div class="watch-card animate__animated animate__fadeInUp">
+                                <img src="https://s3.ap-southeast-1.amazonaws.com/galadriel-picture-storage.luxein.com/15906189020001590726151733"
+                                    class="card-img-top" alt="Sports Watch">
+                                <div class="watch-card-body">
+                                    <h5 class="watch-card-title">Sports Watch</h5>
+                                    <p class="watch-card-text">Php1,500</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+    
+                    <div class="col-md-4 mb-4">
+                        <a href="products.html" class="text-decoration-none text-dark">
+                            <div class="watch-card animate__animated animate__fadeInUp">
+                                <img src="https://s3.ap-southeast-1.amazonaws.com/galadriel-picture-storage.luxein.com/16983749496261698374949786"
+                                    class="card-img-top" alt="Classic Watch">
+                                <div class="watch-card-body">
+                                    <h5 class="watch-card-title">Classic Watch</h5>
+                                    <p class="watch-card-text">Php2,000</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Customer Reviews -->
+    <section class="testimonials py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="animate__animated animate__fadeInUp">Customer Reviews</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p>"Absolutely love the quality! Worth every peso!"</p>
+                        <footer class="blockquote-footer">Anonymous</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p>"Stylish and affordable—what more could I ask for?"</p>
+                        <footer class="blockquote-footer">Anonymous</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p>"Great customer service and fast delivery!"</p>
+                        <footer class="blockquote-footer">Anonymous</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Comment Section -->
+<section class="comments-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Leave a Comment</h2>
+        <form id="commentForm">
+            <div class="mb-3">
+                <label for="username" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="username" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+                <label for="usercomment" class="form-label">Your Comment</label>
+                <textarea class="form-control" id="usercomment" rows="3" placeholder="Write a comment..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Comment</button>
+        </form>
+        <div id="commentList" class="mt-4">
+            <h5>Comments:</h5>
+            <ul class="list-group" id="commentsDisplay"></ul>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+       <p>&copy; | 2025 Elamey's Watch Store |</p>
+    </div>
+  </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('commentForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+    
+            const name = document.getElementById('username').value;
+            const comment = document.getElementById('usercomment').value;
+    
+            const listItem = document.createElement('li');
+            listItem.className = 'list-group-item';
+            listItem.innerHTML = `<strong>${name}:</strong> ${comment}`;
+    
+            document.getElementById('commentsDisplay').appendChild(listItem);
+    
+            this.reset();
+        });
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #D8D8D8;
+    color: #333;
+    line-height: 1.6;
+}
+.navbar {
+    background-color: #222 !important;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff !important;
+}
+.container {
+    margin-top: 2rem;
+}
+h1 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.table {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.table thead th {
+    background-color: #333;
+    color: white;
+    border-bottom: 2px solid #555;
+    padding: 1rem;
+    text-align: center;
+}
+.table tbody td {
+    padding: 1rem;
+    text-align: center;
+    vertical-align: middle;
+}
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.img-fluid {
+    max-height: 100px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #f9f9f9;
+}
+
+.btn-primary {
+    background-color: #555;
+    border-color: #444;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #333;
+    border-color: #222;
+}
+
+.contact-info {
+    margin-top: 2rem;
+    text-align: center;
+}
+.contact-info h2 {
+    color: #444;
+    margin-bottom: 1rem;
+}
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30') no-repeat center center/cover;
+    padding: 150px 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.watch-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 500px;
+    margin: 10px;
+    padding: 15px;
+    height: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .watch-card {
+        width: 90%;
+        margin: 5px;
+    }
+}
+.watch-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+.watch-card img {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+.watch-card-body {
+    margin-top: 10px;
+    padding: 10px;
+}
+.watch-card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.watch-card-text {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    padding: 10px 20px;
+    background-color: white;
+    border-left: 5px solid #D0D0D0;
+    margin: 20px auto;
+}
+
+label {
+    margin-top: 0.5rem;
+}
+/
+.social-icons a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 0 3px;
+}
+.social-icons a i {
+    color: #fff;
+    font-size: 2rem;
+}
+.social-icons a:hover i {
+    color: #007bff;
+    transform: scale(1.3);
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
